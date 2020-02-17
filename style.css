@@ -75,7 +75,5 @@ span:hover {
 }
 
 .fa-linkedin:hover {
-  background: #0e76a8;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #0e76a8;
 }
