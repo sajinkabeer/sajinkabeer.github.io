@@ -4,7 +4,7 @@ html {
 }
 
 * {
-  transition: all .125s ease-in-out;
+  transition: all 0.125s ease-in-out;
 }
 
 @-moz-keyframes bump {
@@ -15,7 +15,7 @@ html {
     -moz-transform: scale(0.8);
   }
   100% {
-    -moz-transform: scale(1.0);
+    -moz-transform: scale(1);
   }
 }
 
@@ -27,7 +27,7 @@ html {
     -webkit-transform: scale(0.8);
   }
   100% {
-    -webkit-transform: scale(1.0);
+    -webkit-transform: scale(1);
   }
 }
 
@@ -39,7 +39,7 @@ html {
     transform: scale(0.8);
   }
   100% {
-    transform: scale(1.0);
+    transform: scale(1);
   }
 }
 
@@ -50,8 +50,8 @@ div {
   transform: translate(-50%, -50%);
 }
 
-.fa{
-  font-size:10vw;
+.fa {
+  font-size: 10vw;
 }
 
 span:not(:first-child):not(:last-child) {
@@ -60,10 +60,10 @@ span:not(:first-child):not(:last-child) {
 }
 
 span:hover {
-  -webkit-animation: bump .25s ease-in-out;
-  -moz-animation: bump .25s ease-in-out;
-  animation: bump .25s ease-in-out;
-  cursor:pointer;
+  -webkit-animation: bump 0.25s ease-in-out;
+  -moz-animation: bump 0.25s ease-in-out;
+  animation: bump 0.25s ease-in-out;
+  cursor: pointer;
 }
 
 .fa-github:hover {
@@ -74,8 +74,8 @@ span:hover {
   color: #55acee;
 }
 
-.fa-instagram:hover {
- background: -webkit-linear-gradient(#ee0979, #ff6a00);
+.fa-linkedin:hover {
+  background: #0e76a8;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
